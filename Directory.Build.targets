@@ -1,0 +1,10 @@
+﻿<Project>
+  <ItemGroup>
+    <PackageReference Update="Azure.Identity" Version="1.*" />
+    <PackageReference Update="Azure.ResourceManager" Version="1.*" />
+    <PackageReference Update="Azure.ResourceManager.Compute" Version="1.*" />
+    <PackageReference Update="Azure.ResourceManager.Network" Version="1.*" />
+    <PackageReference Update="Azure.ResourceManager.Resources" Version="1.*" />
+    <PackageReference Update="Microsoft.Extensions.Azure" Version="1.*" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿<Project>
+ 
+  <PropertyGroup>
+    <DefaultNetCoreTargetFramework>net8.0</DefaultNetCoreTargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Version">
+    <MajorVersion>8</MajorVersion>
+    <MinorVersion>0</MinorVersion>
+    <PatchVersion>0</PatchVersion>
+    <VersionPrefix>$(MajorVersion).$(MinorVersion).$(PatchVersion)</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+  </PropertyGroup>
+
+  <PropertyGroup Label="ForPack">
+    <Authors>MasaMatsu</Authors>
+    <Copyright>Copyright (c) MasaMatsu 2024</Copyright>
+    <PackageProjectUrl>https://github.com/MasaMatsu/easyexpansions-azure</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MasaMatsu/easyexpansions-azure</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+ 
+</Project>
